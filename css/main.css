@@ -1,0 +1,542 @@
+@import url(reset.css);
+@import url(font.css);
+@import url(paper.css);
+
+html {
+    font-size: 6.25%;
+}
+
+body {
+    font-size: 16px;
+    font-family: 'Noto Sans KR', sans-serif;
+}
+
+.wrap {
+    width: 100%;
+}
+
+.max_w {
+    max-width: 1400px;
+    height: 100%;
+    margin: 0 auto;
+}
+
+
+
+
+
+.section1 {
+    position: relative;
+    display: flex;
+    width: 100%;
+    height: calc(100vh - 10rem);
+    flex-direction: column;
+    align-items: center;
+    background: url('../img/bg1_light.jpg') no-repeat center/cover;
+}
+
+.section1::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -10rem;
+    display: block;
+    width: 100%;
+    height: 10rem;
+    background: url('../img/ziz.svg') bottom;
+    background-size: 29%;
+}
+
+.spring{
+    display:inline-block;
+    width: 100%;
+    height: 22rem;
+    background-image:
+    linear-gradient(90deg,
+        rgba(255, 255, 255, 0) 12px, 0,
+        #ccc 15px, 0,
+        #ffffff 20px, 0,
+        rgba(255, 255, 255, 0) 100%),
+    radial-gradient(circle closest-side,
+        rgba(255, 255, 255, 0) 88%,
+        #f4f4f4 100%
+    ),
+    radial-gradient(circle at 22px 8px,
+        #ffffff 40%,
+        #ccc 40%,
+        #ccc 100%);
+    background-size: 32px 8px, 32px 16px, 32px 16px;
+    background-repeat: space no-repeat;
+    background-position: center top, center 6px, center 6px;
+}
+
+.spring img {
+    position:relative;
+    display:block;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+.section1 .inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.section1 .title_area h1 {
+    font-family: 'SangSangShinb7';
+    font-size: 100rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+.section1 .text_area {
+    padding-top: 100rem;
+}
+
+.section1 .text_area .title_icon {
+    display: inline-block;
+    font-size: 30rem;
+    margin-bottom: 10rem;
+}
+
+.section1 .text_area .email {
+    margin-bottom: 40rem;
+}
+
+.section1 .text_area .email p {
+    font-size: 22rem;
+    padding-left: 15rem;
+}
+
+.section1 .text_area .skill .icon_area {
+    padding-left: 15rem;
+}
+
+.section1 .text_area .skill .icon_area span {
+    display: inline-block;
+    width: 50rem;
+    height: 50rem;
+    margin-right: 5rem;
+}
+
+.section1 .text_area .icon_area span img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+
+
+
+
+
+
+
+
+.section {
+    background: url('../img/bg1.jpg') no-repeat center/cover;
+}
+
+.section2 {
+    width: 100%;
+    /* background: url('../img/bg1.jpg') no-repeat center/cover; */
+}
+
+.section2 > .max_w {
+    padding: 100rem 0;
+}
+
+.section2 .title_area {
+    /* font-family: 'KCCMurukmuruk'; */
+    font-family: "Neucha", sans-serif;
+    font-size: 30rem;
+    letter-spacing: 3px;
+}
+
+.section2 .project_area {
+    display: flex;
+    gap: 100rem;
+    margin-top: 70rem;
+}
+
+.section2 .project_area .box {
+    width: 30%;
+}
+
+.section2 .project_area .box .img_area {
+    width: 100%;
+    height: 200px;
+    border-radius: 10rem;
+    overflow: hidden;
+}
+
+.section2 .project_area .box .img_area img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.section2 .project_area .box .text_area {
+    margin-top: 16rem;
+}
+
+.section2 .project_area .box .text_area p {
+    font-size: 18rem;
+    line-height: 40rem;
+}
+
+.section2 .project_area .box .text_area p:first-child {
+    font-size: 20rem;
+    font-weight: bold;
+}
+
+.section2 .project_area .box .text_area .icon_area span {
+    display: inline-block;
+    width: 25rem;
+    height: 25rem;
+    margin-right: 5rem;
+    vertical-align: middle;
+}
+
+.section2 .project_area .box .text_area .icon_area .title_icon {
+    line-height: 20rem;
+    font-size: 20rem;
+    margin-right: 12rem;
+}
+
+.section2 .project_area .box .text_area .icon_area span img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.section2 .barogagi {
+    margin-top: 20rem;
+}
+
+.section2 .barogagi a {
+    padding: 10rem 18rem;
+    margin: 0 7rem;
+}
+
+.section2 .barogagi a:hover {
+    background-color: #fff;
+    font-weight: bold;
+}
+
+/*
+.section2 .barogagi a {
+    display: inline-block;
+    padding: 10rem 20rem;
+    margin-right: 20rem;
+    color: #161d4a;
+    background-color: #ffd752;
+    border-radius: 10rem;
+    transition: all 0.3s;
+}
+
+.section2 .barogagi a:hover {
+    color: #fff;
+    background-color: #ED9C09;
+}
+*/
+
+
+
+
+
+
+
+
+
+.section3 {
+    width: 100%;
+    /* background: url('../img/bg1.jpg') no-repeat center/cover; */
+}
+
+.section3 > .max_w {
+    padding: 100rem 0;
+}
+
+.section3 .title_area {
+    /* font-family: 'KCCMurukmuruk'; */
+    font-family: "Neucha", sans-serif;
+    font-size: 30rem;
+    letter-spacing: 3px;
+}
+
+.section3 .project_area {
+    margin-top: 70rem;
+    display: flex;
+    gap: 50rem;
+}
+
+.section3 .img_area {
+    width: 50%;
+    height: 390px;
+    border-radius: 26rem;
+    overflow: hidden;
+}
+.section3 .img_area img {
+    display: block;
+    width: 100%;
+    height: 100%;
+}
+
+.section3 .text_area {
+    width: 50%;
+}
+
+.section3 .text_area p {
+    font-size: 18rem;
+    line-height: 40rem;
+}
+
+.section3 .project_area .text_area p:first-child {
+    position: relative;
+    font-size: 20rem;
+    font-weight: bold;
+}
+
+.section3 .project_area .text_area p:first-child::after {
+    content: '';
+    position: absolute;
+    bottom: -10rem;
+    left: 0;
+    display: inline-block;
+    width: 100rem;
+    height: 2rem;
+    background-color: #333;
+}
+
+.section3 .project_area .text_area p:nth-child(2) {
+    margin-top: 40rem;
+}
+
+.section3 .project_area .text_area p strong {
+    display: block;
+    font-weight: 400;
+    padding-left: 20rem;
+    line-height: 1.5;
+}
+
+.section3 .icon_area span {
+    display: inline-block;
+    width: 25rem;
+    height: 25rem;
+    margin-right: 5rem;
+    vertical-align: middle;
+}
+
+.section3 .icon_area .title_icon {
+    line-height: 20rem;
+    font-size: 20rem;
+    margin-right: 12rem;
+}
+
+.section3 .icon_area span img {
+    display: block;
+    width: 100%;
+    height: 100%;
+    border: none;
+}
+
+.section3 .barogagi {
+    margin-top: 20rem;
+}
+
+.section3 .barogagi a {
+    padding: 7rem 14rem;
+    margin: 0 7rem;
+}
+
+.section3 .barogagi a:hover {
+    background-color: #fff;
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+footer {
+    text-align: center;
+    color: #fff;
+    background-color: #333; /*///*/
+    font-size: 20rem;
+    padding: 50rem 0;
+}
+
+footer span {
+    font-weight: bold;
+}
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1420px) {
+    .max_w {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1220px) {
+    .max_w {
+        max-width: 1000px;
+    }
+
+    .section3 .img_area {
+        height: 308px;
+    }
+    .section2 .project_area {
+        gap: 50rem;
+    }
+}
+
+@media screen and (max-width: 1030px) {
+    .max_w {
+        max-width: 870px;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .max_w {
+        max-width: none;
+        margin: 0 50rem;
+    }
+
+    .section2 .project_area {
+        justify-content: space-between;
+    }
+
+    .section2 .project_area .box {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    .section1 .title_area h1 {
+        font-size: 80rem;
+    }
+
+    .section1 .text_area .skill .icon_area span {
+        width: 40rem;
+        height: 40rem;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .section1 .title_area h1 {
+        font-size: 100rem;
+    }
+
+    .section1 .text_area .skill .icon_area span {
+        width: 30rem;
+        height: 30rem;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    html {
+        font-size: 4.3%;
+    }
+
+    .section1 .text_area .email p {
+        text-align: center;
+        padding: 0;
+    }
+
+    .section1 .text_area .skill .icon_area {
+        padding: 0;
+    }
+
+    .section1 .text_area .skill .icon_area span {
+        width: 40rem;
+        height: 40rem;
+    }
+
+    .section1::after {
+        background-size: 100%;
+    }
+
+    .section2 .project_area {
+        flex-direction: column;
+        gap: 50rem;
+    }
+
+    .section2 .project_area .box {
+        width: 100%;
+    }
+
+    .section2 .project_area .box .text_area p:first-child {
+        font-size: 24rem;
+    }
+
+    .section2 .project_area .box .text_area p {
+        font-size: 21rem;
+    }
+
+    .section2 .project_area .box .text_area .icon_area .title_icon {
+        line-height: 30rem;
+        font-size: 27rem;
+    }
+
+    .section2 .project_area .box .text_area .icon_area span {
+        width: 35rem;
+        height: 35rem;
+    }
+
+    .section3 .project_area {
+        flex-direction: column;
+    }
+
+    .section3 .img_area {
+        width: 100%;
+        height: 300px;
+    }
+
+    .section3 .text_area {
+        width: 100%;
+    }
+
+    .section3 .project_area .text_area p:first-child {
+        font-size: 24rem;
+    }
+
+    .section3 .project_area .text_area p:first-child::after {
+        width: 50%;
+    }
+
+    .section3 .project_area .text_area p:nth-child(2) {
+        margin-top: 15rem;
+    }
+
+    .section3 .text_area p {
+        font-size: 21rem;
+        line-height: 36rem;
+    }
+
+    .section3 .project_area .box .text_area .icon_area .title_icon {
+        line-height: 30rem;
+        font-size: 27rem;
+    }
+
+    .section3 .project_area .box .text_area .icon_area span {
+        width: 35rem;
+        height: 35rem;
+    }
+}
