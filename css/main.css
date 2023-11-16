@@ -158,7 +158,8 @@ body {
 }
 
 .section2 .project_area .box {
-    width: 30%;
+    /* width: calc(100% / 3 - 50rem); */
+    width: 28%;
 }
 
 .section2 .project_area .box .img_area {
