@@ -1,6 +1,5 @@
 @import url(reset.css);
 @import url(font.css);
-@import url(paper.css);
 
 html {
     font-size: 6.25%;
@@ -25,6 +24,7 @@ body {
 
 
 
+/* ***맨위 스케치북 */
 .section1 {
     position: relative;
     display: flex;
@@ -129,14 +129,7 @@ body {
     border: none;
 }
 
-
-
-
-
-
-
-
-
+/* ***작업물 */
 .section {
     background: url('../img/bg1.jpg') no-repeat center/cover;
 }
@@ -159,6 +152,7 @@ body {
 
 .section2 .project_area {
     display: flex;
+    flex-wrap: wrap;
     gap: 100rem;
     margin-top: 70rem;
 }
@@ -229,31 +223,7 @@ body {
     font-weight: bold;
 }
 
-/*
-.section2 .barogagi a {
-    display: inline-block;
-    padding: 10rem 20rem;
-    margin-right: 20rem;
-    color: #161d4a;
-    background-color: #ffd752;
-    border-radius: 10rem;
-    transition: all 0.3s;
-}
-
-.section2 .barogagi a:hover {
-    color: #fff;
-    background-color: #ED9C09;
-}
-*/
-
-
-
-
-
-
-
-
-
+/* ***팀플 */
 .section3 {
     width: 100%;
     /* background: url('../img/bg1.jpg') no-repeat center/cover; */
@@ -360,14 +330,7 @@ body {
     font-weight: bold;
 }
 
-
-
-
-
-
-
-
-
+/* ***푸터 */
 footer {
     text-align: center;
     color: #fff;
@@ -378,165 +341,4 @@ footer {
 
 footer span {
     font-weight: bold;
-}
-
-
-
-
-
-
-
-
-
-@media screen and (max-width: 1420px) {
-    .max_w {
-        max-width: 1200px;
-    }
-}
-
-@media screen and (max-width: 1220px) {
-    .max_w {
-        max-width: 1000px;
-    }
-
-    .section3 .img_area {
-        height: 308px;
-    }
-    .section2 .project_area {
-        gap: 50rem;
-    }
-}
-
-@media screen and (max-width: 1030px) {
-    .max_w {
-        max-width: 870px;
-    }
-}
-
-@media screen and (max-width: 880px) {
-    .max_w {
-        max-width: none;
-        margin: 0 50rem;
-    }
-
-    .section2 .project_area {
-        justify-content: space-between;
-    }
-
-    .section2 .project_area .box {
-        width: 45%;
-    }
-}
-
-@media screen and (max-width: 620px) {
-    .section1 .title_area h1 {
-        font-size: 80rem;
-    }
-
-    .section1 .text_area .skill .icon_area span {
-        width: 40rem;
-        height: 40rem;
-    }
-}
-
-@media screen and (max-width: 500px) {
-    .section1 .title_area h1 {
-        font-size: 100rem;
-    }
-
-    .section1 .text_area .skill .icon_area span {
-        width: 30rem;
-        height: 30rem;
-    }
-}
-
-@media screen and (max-width: 425px) {
-    html {
-        font-size: 4.3%;
-    }
-
-    .section1 .text_area .email p {
-        text-align: center;
-        padding: 0;
-    }
-
-    .section1 .text_area .skill .icon_area {
-        padding: 0;
-    }
-
-    .section1 .text_area .skill .icon_area span {
-        width: 40rem;
-        height: 40rem;
-    }
-
-    .section1::after {
-        background-size: 100%;
-    }
-
-    .section2 .project_area {
-        flex-direction: column;
-        gap: 50rem;
-    }
-
-    .section2 .project_area .box {
-        width: 100%;
-    }
-
-    .section2 .project_area .box .text_area p:first-child {
-        font-size: 24rem;
-    }
-
-    .section2 .project_area .box .text_area p {
-        font-size: 21rem;
-    }
-
-    .section2 .project_area .box .text_area .icon_area .title_icon {
-        line-height: 30rem;
-        font-size: 27rem;
-    }
-
-    .section2 .project_area .box .text_area .icon_area span {
-        width: 35rem;
-        height: 35rem;
-    }
-
-    .section3 .project_area {
-        flex-direction: column;
-    }
-
-    .section3 .img_area {
-        width: 100%;
-        height: 300px;
-    }
-
-    .section3 .text_area {
-        width: 100%;
-    }
-
-    .section3 .project_area .text_area p:first-child {
-        font-size: 24rem;
-    }
-
-    .section3 .project_area .text_area p:first-child::after {
-        width: 50%;
-    }
-
-    .section3 .project_area .text_area p:nth-child(2) {
-        margin-top: 15rem;
-    }
-
-    .section3 .text_area p {
-        font-size: 21rem;
-        line-height: 36rem;
-    }
-
-    .section3 .project_area .box .text_area .icon_area .title_icon {
-        line-height: 30rem;
-        font-size: 27rem;
-    }
-
-    .section3 .project_area .box .text_area .icon_area span {
-        width: 35rem;
-        height: 35rem;
-    }
 }

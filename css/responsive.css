@@ -1,0 +1,160 @@
+@media screen and (max-width: 1440px) {
+    .max_w {
+        max-width: 1200px;
+    }
+}
+
+@media screen and (max-width: 1240px) {
+    .max_w {
+        max-width: 1000px;
+    }
+
+    .section3 .img_area {
+        height: 308px;
+    }
+    .section2 .project_area {
+        gap: 50rem;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .max_w {
+        max-width: 870px;
+    }
+
+    .section2 .project_area .box {
+        width: 40%;
+    }
+}
+
+@media screen and (max-width: 880px) {
+    .max_w {
+        max-width: none;
+        margin: 0 50rem;
+    }
+
+    .section2 .project_area .box {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 675px) {
+    .section2 .barogagi a {
+        width: 49%;
+        text-align: center;
+        margin: 0;
+        padding: 10rem;
+    }
+
+    .section3 .barogagi a {
+        width: 49%;
+        text-align: center;
+        margin: 0;
+        padding: 10rem;
+    }
+}
+
+@media screen and (max-width: 612px) {
+    html {
+        font-size: 4.3%;
+    }
+}
+
+@media screen and (max-width: 425px) {
+    .section1 .text_area .email p {
+        text-align: center;
+        padding: 0;
+    }
+
+    .section1 .text_area .skill .icon_area {
+        padding: 0;
+    }
+
+    .section1 .text_area .skill .icon_area span {
+        width: 40rem;
+        height: 40rem;
+    }
+
+    .section1::after {
+        background-size: 100%;
+    }
+
+    .section2 .project_area {
+        flex-direction: column;
+        gap: 50rem;
+    }
+
+    .section2 .project_area .box {
+        width: 100%;
+    }
+
+    .section2 .project_area .box .text_area p:first-child {
+        font-size: 24rem;
+    }
+
+    .section2 .project_area .box .text_area p {
+        font-size: 21rem;
+    }
+
+    .section2 .project_area .box .text_area .icon_area .title_icon {
+        line-height: 30rem;
+        font-size: 27rem;
+    }
+
+    .section2 .project_area .box .text_area .icon_area span {
+        width: 35rem;
+        height: 35rem;
+    }
+
+    .section3 .project_area {
+        flex-direction: column;
+    }
+
+    .section3 .img_area {
+        width: 100%;
+        height: 300px;
+    }
+
+    .section3 .text_area {
+        width: 100%;
+    }
+
+    .section3 .project_area .text_area p:first-child {
+        font-size: 24rem;
+    }
+
+    .section3 .project_area .text_area p:first-child::after {
+        width: 50%;
+    }
+
+    .section3 .project_area .text_area p:nth-child(2) {
+        margin-top: 15rem;
+    }
+
+    .section3 .text_area p {
+        font-size: 21rem;
+        line-height: 36rem;
+    }
+
+    .section3 .project_area .box .text_area .icon_area .title_icon {
+        line-height: 30rem;
+        font-size: 27rem;
+    }
+
+    .section3 .project_area .box .text_area .icon_area span {
+        width: 35rem;
+        height: 35rem;
+    }
+}
+
+@media screen and (max-width: 421px) {
+    .section1 .title_area h1 {
+        font-size: 75rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .section1 .title_area h1 {
+        font-size: 75rem;
+    }
+}
